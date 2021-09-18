@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Furniture Order Form</title>
+</head>
+<body>
+    <h2>QCC Furniture Order Form</h2>
+    <form method="post" action="process.html">
+        <table border="1">
+            <tr>
+                <td>
+                    First Name:
+                </td>
+                <td>
+                    <input type="text" name="firstName">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Last Name:
+                </td>
+                <td>
+                    <input type="text" name="lastName">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Street Address:
+                </td>
+                <td>
+                    <input type="text" name="streetAddress">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    City:
+                </td>
+                <td>
+                    <input type="text" name="city">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    State:
+                </td>
+                <td>
+                    <input type="text" name="state">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Zip:
+                </td>
+                <td>
+                    <input type="text" name="zip">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Number of Chairs Ordered:
+                </td>
+                <td>
+                    <select name="numberOfChairs">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Number of Sofas Ordered:
+                </td>
+                <td>
+                    <select name="numberOfSofas">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Rush delivery?
+                </td>
+                <td>
+                    <input type="radio" name="delivery" value="yes">Yes
+                    <input type="radio" name="delivery" value="no">No
+                </td>
+            </tr>
+        </table>
+        <br>
+        <input type="submit" value="Submit Invoice">
+        <input type="reset" value="Clear Invoice">
+    </form>
+</body>
+</html>
